@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  font-family: "Outfit";
+}
+header {
+  background-color: #8458b3;
+  color: white;
+  text-align: center;
+}
+
+.h5 {
+  font-size: 1rem;
+}
+
+.recipe {
+  width: 100%;
+  text-transform: uppercase;
+  margin-top: 0.67rem;
+  background-color: #8458b3;
+  border: 0.13rem solid white;
+}
+
+.search {
+  width: 100%;
+  background-color: #8458b3;
+  border: 0.13rem solid white;
+}
+
+.btn:first-child:hover,
+:not(.btn-check) + .btn:hover {
+  background-color: #a0d2eb !important;
+  border: 0.09rem solid white !important;
+}
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: #a0d2eb !important;
+  border: 0.09rem solid white !important;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  background-color: #a0d2eb !important;
+  border: 0.09rem solid white !important;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none !important;
+}
