@@ -41,7 +41,7 @@ header {
 }
 .btn-check:focus + .btn,
 .btn:focus {
-  background-color: #a0d2eb !important;
+  background-color: #8458b3 !important;
   border: 0.09rem solid white !important;
 }
 .btn-check:focus + .btn,
