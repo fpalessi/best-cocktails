@@ -5,7 +5,7 @@ const CocktailModal = () => {
   const { modal, handleModalClick, recipe, loading } = useCocktail();
   const showIngredients = () => {
     let ingredients = [];
-    for (let i = 1; 1 < 16; i++) {
+    for (let i = 1; i < 16; i++) {
       // We just want to add to the array the ingredients that have any value (!empty)
       // If there is any value on strIngredient, we'll be pushing them to the array
       if (recipe[`strIngredient${i}`]) {
