@@ -11,8 +11,11 @@ function App() {
   return (
     <CategoryProvider>
       <CocktailProvider>
-        <header className="py-5">
-          <h1>Encuentra tu cocktail favorito 🍸</h1>
+        <header className="py-3">
+          <h1>Yo-Fave-Drink 🍸</h1>
+          <p style={{ position: "fixed", left: "1%", top: "6%" }}>
+            Not sure what to take?... No worries
+          </p>
         </header>
         <Container className="mt-5">
           <CocktailForm />

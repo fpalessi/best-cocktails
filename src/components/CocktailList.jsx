@@ -4,6 +4,7 @@ import CocktailItem from "./CocktailItem";
 
 const CocktailList = () => {
   const { cocktail } = useCocktail();
+  console.log(cocktail);
   return (
     <Row className="mt-5">
       {cocktail.map((cocktail) => (
